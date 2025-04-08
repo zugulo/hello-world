@@ -4,6 +4,7 @@ import numpy as np
 sudoku = [[0] * 9 for _ in range(9)]
 reference_set = {0,1,2,3,4,5,6,7,8,9}
 count_number = 0
+scount_number = 2
 
 def main():
     opensudoku()
